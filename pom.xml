@@ -69,14 +69,14 @@
     	<repository>
           	<id>Repo-R</id>
       		<name>Repo-R</name>
-		<url>http://ec2-15-206-169-146.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Repo-R/:8081/nexus/content/repositories/Repo-R/</url>
-	</repository>
+      		<url>http://ec2-13-234-112-232.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Repo-R/</url>
+    	</repository>
     	<snapshotRepository>
       		<id>Repo-S</id>
       		<name>Repo-S</name>
-      		<url>http://ec2-15-206-169-146.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Repo-S/:8081/nexus/content/repositories/Repo-S/</url>
+      		<url>http://ec2-13-234-112-232.ap-south-1.compute.amazonaws.com:8081/nexus/content/repositories/Repo-S/</url>
         </snapshotRepository>
-</distributionManagement>
+ </distributionManagement>
 	
 	
 	
