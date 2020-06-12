@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build Application') {
             steps {
-                sh 'mvn clean package'
+                sh 'mvn -Dmaven.test.failure.ignore=true clean package'
             }
             post {
                 success {
