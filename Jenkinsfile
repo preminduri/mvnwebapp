@@ -1,6 +1,10 @@
 pipeline {
     agent any
     stages {
+        tools {
+      maven "M3"
+               }
+        
         stage('Build Application') {
             steps {
                 sh 'mvn -Dmaven.test.failure.ignore=true clean package'
